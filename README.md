@@ -2,11 +2,11 @@
 
 Requirements:
 ````
-pip install Pillow
+  pip install Pillow
 ````
 Usage:
 ````
-python xmlspritesresizer.py [args]'
+  python xmlspritesresizer.py [args]'
 ````
 
 Args:
