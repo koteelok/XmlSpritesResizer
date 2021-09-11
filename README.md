@@ -1,16 +1,14 @@
-# XMLSpritesResizer
+# XMLSpriteResizer
 
 Requirements:
  * run 'python -m pip install Pillow' to install PIL
 
 Usage:
-1. open cmd/powershell in script folder
-2. type 'python xmlspritesresizer.py 1arg 2arg 3arg 4arg'
+* run 'python xmlspritesresizer.py [args]'
 
-_1arg = Path to XML file. (.\file.xml)_
+Args:
 
-_2arg = Path to PNG file. (.\file.png)_
-
-_3arg = Don't change TextureFrames if needed. (Default = false)_
-
-_4arg = Sprite downsize factor. (Default = 2)_
+  -xml                  The path of the XML file.
+  -img                  The path of the image file.
+  -d, --downsize        Image downsizing factor. Default = 2.
+  -sf, --saveframes     Save frames(frameXY and framesizes willn't be changed) flag. Default = False.
